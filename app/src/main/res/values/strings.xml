@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Uni_Car</string>
+    <string name="no_est_s_registrado_todav_a">¿No estas registrado todavia?</string>
+    <string name="registrate">Registrate</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+
+</resources>

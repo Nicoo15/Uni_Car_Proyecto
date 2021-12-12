@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bordes_redondos2">
+
+    <ImageView
+        android:id="@+id/imgPost"
+        android:src="@drawable/ic_launcher_profile_foreground"
+        android:background="@drawable/ic_launcher_profile_foreground"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/idusuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:text="Usuario"/>
+
+        <TextView
+            android:id="@+id/origen"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Lugar de salida"
+            android:textSize="20dp"
+            android:textColor="@color/azulunicar" />
+
+        <TextView
+            android:id="@+id/destino"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Lugar de llegada"
+            android:textSize="20dp"
+            android:textColor="@color/azulunicar" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Fecha"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/hora"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:text="Hora"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tlfn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textColor="@color/black" />
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

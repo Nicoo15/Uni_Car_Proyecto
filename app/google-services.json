@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "191139002712",
+    "firebase_url": "https://unicar-f3a5c-default-rtdb.firebaseio.com",
+    "project_id": "unicar-f3a5c",
+    "storage_bucket": "unicar-f3a5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191139002712:android:b79f584113a6b11e864d2d",
+        "android_client_info": {
+          "package_name": "com.example.uni_car"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191139002712-ggme50lodebs91v6tcmighfdqd5b245c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkahrBjfW5zhMad6sZd33CjCi3dQ0cuTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191139002712-ggme50lodebs91v6tcmighfdqd5b245c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
